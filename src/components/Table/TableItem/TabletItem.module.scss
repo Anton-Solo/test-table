@@ -1,0 +1,52 @@
+td {
+    vertical-align: middle;
+    color: #2F2525;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        color: #37352F;
+    }
+
+    &.table_url {
+        @media(max-width: 768px) {
+            display: none;
+        }
+    }
+}
+
+.table_more {
+    button {
+        background: none!important;
+        border: none!important;
+    }
+
+    .more_item {
+        color: #2F2525;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        width: 272px;
+
+        svg {
+            margin-right: 12.97px;
+        }
+    }
+}
+
+.title {
+    font-weight: 500;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    span:nth-child(2) {
+        font-weight: 300;
+    }
+}
